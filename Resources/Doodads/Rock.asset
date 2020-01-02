@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d72dd4fdac14b0992fbb2d48f18cfc, type: 3}
+  m_Name: Rock
+  m_EditorClassIdentifier: 
+  threshold: 0
+  color: {r: 0, g: 0, b: 0, a: 0}
+  chance: 0.95
+  heightTypes:
+  - {fileID: 11400000, guid: bd260880aa1524cb59095be02e2e69b6, type: 2}
+  heatTypes: []
+  moistureTypes: []
+  difficultyTypes: []
+  gameObject: {fileID: 7861478761767513776, guid: 77aa3977f3d754fb0a865ebe06865208,
+    type: 3}
+  yAxisCorrection: 0.25
+  neighborRadius: 0.05
+  biomeTypes: []
